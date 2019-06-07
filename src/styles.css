@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fst {
+  font-family: sans-serif;
+  text-align: center;
+  /* display: flex; */
+}
+.btn2 {
+  margin: 20px;
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tweet {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.tweet h2 {
+  color: green;
+}
+
+.tweet h3 {
+  color: blue;
+}
+
+.red {
+  color: red;
+  font-size: 50px;
+}
